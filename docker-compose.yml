@@ -6,6 +6,7 @@ services:
     container_name: sc_reverse_proxy
     volumes:
       - <DOCKER_VOLUME>:/etc/nginx
+      - <DOCKER_LOGS>:/var/log/nginx
     ports:
       - <DOCKER_PORT>
 

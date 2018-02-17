@@ -12,7 +12,13 @@
             "key": "<DOCKER_VOLUME>",
             "value": "/Users/cyrilpham-le/Documents/Projets/Docker/sharing-craftsman-reverse-proxy/data/nginx"
           }
-        }
+        },
+        "logs": {
+          "path": {
+            "key": "<DOCKER_LOGS>",
+            "value": "/Users/cyrilpham-le/Documents/Projets/Docker/sharing-craftsman-reverse-proxy/data/logs"
+          }
+        },
         "network": {
           "key": "<DOCKER_NETWORK>",
           "value": "scnetwork"
