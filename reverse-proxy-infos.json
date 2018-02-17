@@ -1,0 +1,23 @@
+{
+  "reverse-proxy": [
+    {
+      "name": "docker-compose.yml",
+      "docker": {
+        "port": {
+          "key": "<DOCKER_PORT>",
+          "value": "8098:8098"
+        },
+        "volume": {
+          "path": {
+            "key": "<DOCKER_VOLUME>",
+            "value": "/Users/cyrilpham-le/Documents/Projets/Docker/sharing-craftsman-reverse-proxy/data/nginx"
+          }
+        }
+        "network": {
+          "key": "<DOCKER_NETWORK>",
+          "value": "scnetwork"
+        }
+      }
+    }
+  ]
+}
