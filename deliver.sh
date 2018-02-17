@@ -6,5 +6,5 @@ mkdir $1
 cp docker-compose.yml $1/docker-compose.yml
 cp Dockerfile $1/Dockerfile
 cp update_docker_files.py $1/update_docker_files.py
-cp reverse-proxy-infos.yml $1/reverse-proxy-infos.yml
+cp reverse-proxy-infos.json $1/reverse-proxy-infos.json
 echo "End copying deployable files in app folder"
